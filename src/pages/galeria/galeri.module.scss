@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    h2{
+        text-align: center;
+        font-size: 40px;
+        margin: 20px;
+        color: white;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Sombra para melhorar a legibilidade */
+    }
+
+body{
+    background-color: rgba(0, 0, 0, 0.938);
+}
+.todasImagens{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.image1 img{
+    border: rgb(65, 65, 65) solid;
+    height: 50vh;
+    width: 30vw;
+    padding: 10px;
+    border-radius: 20px;
+    
+    
+
+}
+.image2 img{
+    border: rgb(65, 65, 65) solid;
+    height: 50vh;
+    width: 30vw;
+    padding: 10px;
+    border-radius: 20px;
+    
+   
+}
+.image3 img {
+    border: rgb(65, 65, 65) solid;
+    height: 50vh;
+    width: 30vw;
+    padding: 10px;
+    border-radius: 20px;
+ 
+}
+
+
+@media( max-width:768px){
+
+    @media(max-width: 768px) {
+        .todasImagens {
+            flex-direction: column; /* Faz as imagens ficarem em uma coluna */
+            align-items: center; /* Alinha as imagens no centro */
+        }
+    
+        .image1 img, .image2 img, .image3 img {
+            width: 80vw; /* Ajusta o tamanho das imagens para que fiquem mais adequadas em telas menores */
+            height: auto; /* Deixa a altura das imagens automática para manter a proporção */
+            margin-bottom: 20px; /* Adiciona um espaçamento entre as imagens */
+        }
+    }
+}

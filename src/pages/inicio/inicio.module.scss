@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+
+   
+    display: flex;
+   
+
+    
+}
+.fotoInicio{
+    
+    width: 100vw;
+    height: 100vh;
+    
+}
+.Inicio{
+
+    
+    h2{
+        font-size: 100px;
+        position: absolute;
+        top: 50%; /* Posiciona o texto no centro vertical */
+        left: 50%; /* Posiciona o texto no centro horizontal */
+        transform: translate(-50%, -50%); /* Ajusta para o centro exato */
+        color: #ffffff; /* Cor do texto */
+      
+        text-shadow: 4px 4px 8px rgb(0, 0, 0); /* Sombra para melhorar a legibilidade */
+       
+        
+        
+    }
+
+
+}
+
+@media (max-width:768px){
+
+    .fotoInicio{
+    
+       
+        height: 70vh;
+        
+    }
+    .Inicio{
+    
+        
+        h2{
+            font-size: 60px;
+            position: absolute;
+            top: 50%; /* Posiciona o texto no centro vertical */
+            left: 50%; /* Posiciona o texto no centro horizontal */
+            transform: translate(-50%, -50%); /* Ajusta para o centro exato */
+            color: #ffffff; /* Cor do texto */
+          
+            text-shadow: 4px 4px 8px rgb(0, 0, 0); /* Sombra para melhorar a legibilidade */
+           
+            
+            
+        }
+    
+}}

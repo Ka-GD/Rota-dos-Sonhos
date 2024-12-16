@@ -1,0 +1,71 @@
+.Header{
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0a0a;/*vou trocar de cor no futuro e colocar transparente*/
+    height: 15vh;
+    h2{
+        color: #fff;
+        font-size: 30px;
+        padding: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+    nav ul {
+        list-style-type: none; /* Remove os pontos de lista */
+        padding: 50px; /* Remove o padding padrão */
+      
+        display: flex; /* Utiliza o Flexbox para alinhar os itens */
+      }
+      
+      nav ul li {
+        margin-right: 20px; /* Espaçamento entre os links */
+      }
+      
+      
+      nav ul li a {
+        text-decoration: none; /* Remove o sublinhado dos links */
+        color: #fff; /* Cor do link */
+        font-size: 20px; /* Tamanho da fonte do link */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+}
+
+@media (max-width:768px) {
+  
+  .Header{
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0a0a;/*vou trocar de cor no futuro e colocar transparente*/
+    height: 15vh;
+    h2{
+        color: #fff;
+        font-size: 16px;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
+    }
+    nav ul {
+        list-style-type: none; /* Remove os pontos de lista */
+        padding: 10px; /* Remove o padding padrão */
+      
+        display: flex; /* Utiliza o Flexbox para alinhar os itens */
+      }
+      
+      nav ul li {
+        margin-right: 10px; /* Espaçamento entre os links */
+      }
+      
+      
+      nav ul li a {
+        text-decoration: none; /* Remove o sublinhado dos links */
+        color: #fff; /* Cor do link */
+        font-size: 16px; /* Tamanho da fonte do link */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+}}
